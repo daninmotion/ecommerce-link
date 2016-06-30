@@ -1,10 +1,19 @@
 source 'https://rubygems.org'
 
-
+# Ruby version
+ruby '2.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use sqlite3 as the database for development and test
+gem 'sqlite3', group: [:development, :test] #for the group we are passing 
+#a two values, development and test
+
+gem 'pg', '~> 0.18.4', group: :production #for the group we are passing one value
+#which is production, so no need for brackets since it's just on value
+
+#Add 12 factor for Heroku
+gem 'rails_12factor', '~> 0.0.3', group: :production
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
