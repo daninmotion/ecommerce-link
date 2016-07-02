@@ -57,3 +57,6 @@ end
 #Use bootstrap for front-end
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
+#Use Stripe for e-commerce payments
+gem 'stripe', '~> 1.44'
+
