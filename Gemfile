@@ -60,3 +60,6 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 #Use Stripe for e-commerce payments
 gem 'stripe', '~> 1.44'
 
+#Figaro gem for securely managing credentials
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
