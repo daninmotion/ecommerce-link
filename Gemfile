@@ -63,3 +63,6 @@ gem 'stripe', '~> 1.44'
 #Figaro gem for securely managing credentials
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 
+#Letter opener for emails in development
+gem 'letter_opener', '~> 1.4', '>= 1.4.1', :group => :development
+
