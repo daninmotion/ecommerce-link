@@ -66,3 +66,9 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 #Letter opener for emails in development
 gem 'letter_opener', '~> 1.4', '>= 1.4.1', :group => :development
 
+#Add activeAdmin to generate an admin interface
+gem 'activeadmin', github: 'activeadmin'
+
+#Add devise to support login for activeAdmin
+gem 'devise', '~> 4.2'
+
